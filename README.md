@@ -66,7 +66,7 @@ CUDA: 11.8 (如使用GPU)
 🚀 快速开始
 1. 克隆项目
 bash
-git clone https://github.com/your-username/transformer-from-scratch.git
+git clone https://github.com/haoqingjiang0204-jpg/upgraded-adventure.git
 cd transformer-from-scratch
 2. 环境配置
 bash
