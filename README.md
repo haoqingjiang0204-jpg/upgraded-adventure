@@ -1,7 +1,3 @@
-Transformer从零实现
-https://img.shields.io/badge/Python-3.10-blue.svg
-https://img.shields.io/badge/PyTorch-2.0-red.svg
-https://img.shields.io/badge/License-MIT-green.svg
 
 本项目完整实现了Transformer架构，包含Encoder-Decoder结构、多头自注意力机制、位置编码等核心组件。在Tiny Shakespeare数据集上进行了字符级语言建模任务的训练，并通过系统的消融实验验证了各组件的重要性。
 
