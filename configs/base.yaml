@@ -1,0 +1,26 @@
+model:
+  vocab_size: 65
+  d_model: 128
+  n_layers: 2
+  n_heads: 4
+  d_ff: 512
+  max_seq_len: 256
+  dropout: 0.3
+
+training:
+  batch_size: 32
+  block_size: 256
+  num_epochs: 50
+  learning_rate: 0.00001
+  weight_decay: 0.0
+  grad_clip: 1.0
+  save_interval: 10
+
+data:
+  dataset: tiny_shakespeare
+  split_ratio: 0.9
+
+experiment:
+  name: transformer_baseline
+  device: cuda
+  seed: 42
